@@ -55,6 +55,7 @@ String loc = rs.getString("loc");
 		<th colspan = "2">
 		<button type="submit">수정</button>
 		<button type="reset">취소</button>
+		<button type="button" onClick="location='deptDelete.jsp?deptno=<%=deptno %>'">삭제</button>
 	</tr>
 	
 
